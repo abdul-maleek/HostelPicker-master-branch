@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="../src/styles/loginPage.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="left-div">
+      <h1>Welcome to our<br> crescent university hostel</h1>
+      <p class="message">We’re happy to have you here! This is your new home—a safe, friendly space to learn, grow, and connect. Check out the guidelines and let us know if you need anything. Let’s make it a great stay!</p>
+      
+      <div class="rating">⭐⭐⭐⭐</div>
+      
+      <p class="comment">Living in the hostel has been a great experience. The rooms are comfortable, the food is decent, and I’ve made amazing friends here. The staff is helpful, and there’s always someone around if you need support. It’s a great place to balance studies and fun!</p>
+      
+      <div class="profile">
+        <img src="../src/img/fi.webp" alt="profile" />
+        <div>
+          <strong>Odunola Anas</strong><br>
+          <span>Student</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-div">
+      <h2>Welcome back!</h2>
+      <form id="loginForm">
+        <label for="matric">Matric Number</label>
+        <input type="text" id="matric" placeholder="Enter your matric number" required />
+        <span class="error-message" id="matric-error"></span>
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required />
+        <span class="error-message" id="password-error"></span>
+        
+        <div class="form-options">
+          <label><input type="checkbox"> Remember me</label>
+          <a href="#">Forgot password?</a>
+        </div>
+        
+        <button href="adminPage.html"   type="submit">Sign in</button>
+      </form>
+    </div>
+  </div>
+
+<script src="../src/js/loginPage.js"></script>
+
+</body>
+</html>
