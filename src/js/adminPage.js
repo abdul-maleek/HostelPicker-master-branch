@@ -3,10 +3,10 @@ const hostels = [
     { name: "Dangote  Hostel", total: 25 },
     { name: "Almaroof Hostel", total: 30 },
     { name: "Saudi Hostel", total: 40 },
-    { name: "Tijani Hostel", total: 25 },
-    { name: "Dangote Hostel", total: 20 },
-    { name: "Almaroof Hostel", total: 21 },
-    { name: "Saudi Hostel", total: 30 },
+    { name: "Zakariya(private) Hostel", total: 25 },
+    { name: "Bungalow1 (private) Hostel", total: 20 },
+    { name: "Bungalow2 (private) Hostel", total: 21 },
+    { name: "Bungalow3 (private) Hostel", total: 30 },
    
   ];
   
