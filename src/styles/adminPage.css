@@ -24,6 +24,7 @@
     text-align: center;
     margin-bottom: 40px;
     font-size: 2.5rem;
+    color: white;
   }
   
   .grid {
@@ -35,22 +36,25 @@
   }
   
   .hostel-card {
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 12px;
+    /* background: rgba(255, 255, 255, 0.15); */
+    background: #007bff ;
+    border-radius: white 12px;
     padding: 20px;
-    text-align: center;
+    text-align: right;
     transition: transform 0.3s, background 0.3s;
   }
   
   .hostel-card:hover {
     transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.25);
+    background:#007bff;
+
   }
   
   .hostel-card img {
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
+    color: white;
   }
   
   .hostel-card a {
@@ -67,5 +71,6 @@
   .occupancy {
     margin-top: 8px;
     font-size: 1rem;
+    color: white;
   }
   

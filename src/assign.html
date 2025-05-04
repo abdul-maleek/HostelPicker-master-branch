@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign details</title>
+    <link rel="stylesheet" href="../src/styles/assign.css">
+</head>
+<body>
+    <form method="POST" action="assign.php">
+        <input type="hidden" name="hostel" value="">
+        <input type="hidden" name="room" value="">
+        <input type="hidden" name="slot" value="">
+        
+        <label>Student Name:</label>
+        <input type="text" name="student_name" required>
+        
+        <label>Matric No:</label>
+        <input type="text" name="matric_no" required>
+        
+        <button type="submit">Assign</button>
+      </form>
+      
+      <script>
+        const params = new URLSearchParams(window.location.search);
+        document.querySelector('[name=hostel]').value = params.get("hostel");
+        document.querySelector('[name=room]').value = params.get("room");
+        document.querySelector('[name=slot]').value = params.get("slot");
+      </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+.room-container {
+  background: #007bff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.occupants {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+}
+
+.occupant-slot {
+  padding: 1rem;
+  background-color: white;
+  border: 2px dashed #007bff;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.empty {
+  color: #aaa;
+  border-color: #ccc;
+}
+
+.back-link {
+  margin-top: 2rem;
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+}
