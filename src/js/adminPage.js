@@ -20,7 +20,7 @@ const hostels = [
 
   
     card.innerHTML = `
-    <img src="https://img.icons8.com/ios-filled/100/ffffff/home.png" alt="Hostel Icon">
+    <img src="../src/img/bunk-bed.png" alt="Hostel Icon">
     <a href="details.html?hostel=${hostelParam}">${hostel.name}</a>
     <div class="occupancy">0/${hostel.total}</div>
   `;

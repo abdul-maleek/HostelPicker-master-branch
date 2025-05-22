@@ -54,3 +54,49 @@ h1 {
   color: #007bff;
   text-decoration: none;
 }
+/* .occupants {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+} */
+
+.slot-wrapper {
+  position: relative;
+  display: grid;
+}
+
+/* .occupant-slot {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f0f8ff;
+  cursor: pointer;
+  font-size: 0.95rem;
+  text-align: center;
+  transition: 0.3s;
+} */
+
+.occupant-slot:hover {
+  background: #e0efff;
+}
+
+.remove-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+
+.remove-btn:hover {
+  background: #cc0000;
+}

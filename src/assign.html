@@ -17,15 +17,14 @@
         
         <label>Matric No:</label>
         <input type="text" name="matric_no" required>
+
+        <label>department:</label> 
+        <input type="text" name="dept" required>
         
         <button type="submit">Assign</button>
       </form>
-      
-      <script>
-        const params = new URLSearchParams(window.location.search);
-        document.querySelector('[name=hostel]').value = params.get("hostel");
-        document.querySelector('[name=room]').value = params.get("room");
-        document.querySelector('[name=slot]').value = params.get("slot");
-      </script>
+      <script src="../src/js/assign.js"></script>
+      <!-- <script src="../src/js/Room.js"></script>
+      <script src="../src/js/Details.js"></script> -->
 </body>
 </html>

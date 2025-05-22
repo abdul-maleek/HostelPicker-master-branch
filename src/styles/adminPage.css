@@ -6,7 +6,7 @@
   
   body {
     height: 100vh;
-    background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+    background: #007bff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +25,7 @@
     margin-bottom: 40px;
     font-size: 2.5rem;
     color: white;
+    background-color: #007bff;
   }
   
   .grid {
@@ -36,8 +37,7 @@
   }
   
   .hostel-card {
-    /* background: rgba(255, 255, 255, 0.15); */
-    background: #007bff ;
+    background: #056fe0 ;
     border-radius: white 12px;
     padding: 20px;
     text-align: right;
@@ -46,7 +46,7 @@
   
   .hostel-card:hover {
     transform: translateY(-5px);
-    background:#007bff;
+    background:#63a6ed;
 
   }
   
@@ -62,15 +62,31 @@
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-style: italic;
   }
   
   .hostel-card a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
   .occupancy {
     margin-top: 8px;
     font-size: 1rem;
     color: white;
+  }
+  .btn{
+    background-color: #e0f0ff;
+    margin-top: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-style: italic;
+    color: #007bff;
+    border:#e0f0ff;
+  }
+  .btn:hover {
+    transform: scale(1.09);
+    cursor: pointer;
   }
   

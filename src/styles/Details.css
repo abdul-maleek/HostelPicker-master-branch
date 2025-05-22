@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
 }
 
 body {
@@ -12,10 +13,11 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding: 40px 20px;
+  overflow: hidden;
 }
 
 .container {
-  background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+  background: #007bff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -25,9 +27,10 @@ body {
 
 .container h1 {
   color: white;
-  text-align: left;
+  text-align: right;
   margin-bottom: 2rem;
   font-size: 2rem;
+  font-style: italic;
 }
 
 .room-grid {
@@ -45,10 +48,32 @@ body {
   font-weight: bold;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
+  text-decoration: none;
 }
 
 .room:hover {
   transform: scale(1.05);
   cursor: pointer;
+}
+.btn{
+  background-color: #e0f0ff;
+  margin-top: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  font-size: 20px;
+  font-style: italic;
+  color: #007bff;
+  border:#e0f0ff;
+}
+.btn:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+}
+.room.full {
+  background: #ffe6e6;
+  color: #990000;
+  font-weight:bold;
+  cursor: not-allowed;
 }
 
