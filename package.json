@@ -2,7 +2,7 @@
   "name": "hostelpicker-master-branch",
   "version": "1.0.0",
   "description": "I made this as a school project",
-  "main": "index.js",
+  "main": "loginPage.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
